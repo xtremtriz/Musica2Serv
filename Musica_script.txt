@@ -1,0 +1,12 @@
+create database Musica;
+use Musica;
+
+
+CREATE TABLE Canciones(nSong INTEGER NOT NULL,
+		nombre VARCHAR(10) NOT NULL,		
+		compositor VARCHAR(10) NOT NULL,
+		artista VARCHAR(10) NOT NULL,
+		PRIMARY KEY(nSong));
+
+insert into canciones values("111","I think i like","Fake","Blodd");
+insert into canciones values("122","Metronomy","The look","Metronomy");
